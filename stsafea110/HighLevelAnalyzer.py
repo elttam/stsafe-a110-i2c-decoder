@@ -24,9 +24,6 @@ cmdCodes = {
 # High level analyzers must subclass the HighLevelAnalyzer class.
 class Hla(HighLevelAnalyzer):
     # List of settings that a user can set for this High Level Analyzer.
-    my_string_setting = StringSetting()
-    my_number_setting = NumberSetting(min_value=0, max_value=100)
-    my_choices_setting = ChoicesSetting(choices=('A', 'B'))
     lastCommand = 0
     
     decodedPacket = {
