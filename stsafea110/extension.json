@@ -1,0 +1,13 @@
+{
+  "name": "STSAFE-A110 API",
+  "apiVersion": "1.0.0",
+  "author": "Zoltan Madarassy",
+  "version": "0.0.1",
+  "description": "High Level Analyzer for STSAFE-A110 API I2C communication",
+  "extensions": {
+    "STSAFE-A110 API": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
